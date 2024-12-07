@@ -1,0 +1,25 @@
+/* Light theme styles */
+body.light {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  /* Dark theme styles */
+  body.dark {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Theme Toggle Scroll Bar */
+  .theme-toggle {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .scroll-bar {
+    width: 100px;
+    height: 200px;
+    overflow-y: scroll;
+    background: linear-gradient(to bottom, #fff, #000);
+  }
+  

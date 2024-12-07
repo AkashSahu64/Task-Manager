@@ -1,0 +1,48 @@
+/* General Styling */
+.theme-toggle {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Theme Preview (Top Section) */
+  .theme-preview {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Theme Bar Container (Scrollable) */
+  .theme-bar {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 200px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f4f4f4;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    overflow-x: scroll;
+    display: flex;
+    gap: 5px;
+  }
+  
+  /* Individual Theme Color Block */
+  .theme-color {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .theme-color:hover {
+    transform: scale(1.2);
+  }
+  
